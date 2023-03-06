@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "inspyrekeepalive"
+version = "0.1.0"
+description = ""
+authors = ["Taylor-Jayde Blackstone <t.blackstone@inspyre.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+appdirs = "^1.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
